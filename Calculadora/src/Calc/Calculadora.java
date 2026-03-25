@@ -8,14 +8,18 @@ public class Calculadora {
 	public int sumar(int a, int b) {
 		
 		int result = a + b;
-		
 		return result;
 	}
 	
 	public int restar(int a, int b) {
 		int result = a - b;
-		
 		return result;
 	}
+	
+	public int multiplicar(int a, int b) {
+		int result = a * b;
+		return result;
+	}
+	
 }
 
