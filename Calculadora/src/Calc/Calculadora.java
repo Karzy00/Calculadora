@@ -1,27 +1,29 @@
 package Calc;
 
 public class Calculadora {
-
-	int num1;
-	int num2;
 	
+	public Calculadora(){
+		
+	}
+	//Para sumar los numeros
 	public int sumar(int a, int b) {
 		int result = a + b;
 		
 		return result;
 	}
-	
+	//Para restar los numeros
 	public int restar(int a, int b) {
 		int result = a - b;
 		
 		return result;
 	}
-	
+	//Para multiplicar los numeros
 	public int multiplicar(int a, int b) {
 		int result = a * b;
 		
 		return result;
 	}
+	//Para dividir los numeros
 	public int dividir(int a, int b) {
 		int result = a / b;
 		
