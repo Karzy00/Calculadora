@@ -11,5 +11,11 @@ public class Calculadora {
 		
 		return result;
 	}
+	
+	public int restar(int a, int b) {
+		int result = a - b;
+		
+		return result;
+	}
 }
 
