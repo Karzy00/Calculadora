@@ -24,7 +24,10 @@ public class Calculadora {
 		return result;
 	}
 	//Para dividir los numeros
-	public int dividir(int a, int b) {
+	public double dividir(int a, int b) {
+		if(b == 0) {
+			throw new IllegalArgumentException("No se puede dividir entre 0");
+		}
 		int result = a / b;
 		
 		return result;
